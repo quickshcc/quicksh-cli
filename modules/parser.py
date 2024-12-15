@@ -26,7 +26,7 @@ def get_intent(intent: str) -> Intent | None:
     if intent in ("r", "receive", "get"):
         return Intent.RECEIVE
         
-    elif intent in ("t", "u", "tranfer", "up", "upload"):
+    elif intent in ("t", "u", "transfer", "up", "upload"):
         return Intent.TRANSFER
         
     elif intent in ("l", "list"):
